@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>miss u</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__container">
+          <div class="logo">
+            <a href="index.html">
+              <img class="logo__image" src="img/logomiss.png" alt="Logotype">
+            </a>
+          </div>
+          <nav class="page-navigation">
+            <div class="burger">
+              <div class="line-1"></div>
+              <div class="line-2"></div>
+              <div class="line-3"></div>
+            </div>
+            <ul class="nav-container">
+              <li class="nav-container__item">
+                <a href="#">Главная</a>
+              </li>
+              <li class="nav-container__item">
+                <a href="#nav-to-about-me">Об авторе</a>
+              </li>
+              <li class="nav-container__item">
+                <a href="#">Работы</a>
+              </li>
+              <li class="nav-container__item">
+                <a href="#">Процесс</a>
+              </li>
+              <li class="nav-container__item">
+                <a href="#nav-to-form">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main-page">
+        <div class="container">
+          <div class="main-page__container">
+            <div class="main-page__item">
+              <img class="main-page__image" src="img/laptop.svg" alt="Laptop">
+            </div>
+            <div class="main-page__item main-page__info">
+              <h1 class="main-page-text__item main-page__caption">Дизайн и верстка</h1>
+              <p class="main-page-text__item main-page__description">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+                на латинице с начала XVI века.
+              </p>
+              <button class="main-page-text__item page-button bg-accent" onclick="location.href='#nav-to-form'" type="button">Написать мне</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="nav-to-about-me" class="about-me">
+        <div class="about-me__container">
+          <h2 class="about-me__item about-me__caption page-caption-text">Обо мне</h2>
+          <p class="about-me__item about-me__description page-description-text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+            на латинице с начала XVI века.
+          </p>
+        </div>
+      </section>
+      <section class="experience-list bg-accent">
+        <div class="experience-list-wrapper">
+          <div class="experience-content-container">
+            <div class="experience-list__item">
+              <img src="img/scroll.svg" alt="Experience">
+            </div>
+            <div class="experience-list__item experience-content__text">
+              <h2 class="experience-content__caption">40+</h2>
+              <p class="experience-content__description">проектов</p>
+            </div>
+          </div>
+          <div class="experience-content-container">
+            <div class="experience-list__item">
+              <img src="img/scroll.svg" alt="Experience">
+            </div>
+            <div class="experience-list__item experience-content__text">
+              <h2 class="experience-content__caption">40+</h2>
+              <p class="experience-content__description">проектов</p>
+            </div>
+          </div>
+          <div class="experience-content-container">
+            <div class="experience-list__item">
+              <img src="img/scroll.svg" alt="Experience">
+            </div>
+            <div class="experience-list__item experience-content__text">
+              <h2 class="experience-content__caption">40+</h2>
+              <p class="experience-content__description">проектов</p>
+            </div>
+          </div>
+          <div class="experience-content-container">
+            <div class="experience-list__item">
+              <img src="img/scroll.svg" alt="Experience">
+            </div>
+            <div class="experience-list__item experience-content__text">
+              <h2 class="experience-content__caption">40+</h2>
+              <p class="experience-content__description">проектов</p>
+            </div>
+          </div>
+          <div class="experience-content-container">
+            <div class="experience-list__item">
+              <img src="img/scroll.svg" alt="Experience">
+            </div>
+            <div class="experience-list__item experience-content__text">
+              <h2 class="experience-content__caption">40+</h2>
+              <p class="experience-content__description">проектов</p>
+            </div>
+          </div>
+          <div class="experience-content-container">
+            <div class="experience-list__item">
+              <img src="img/scroll.svg" alt="Experience">
+            </div>
+            <div class="experience-list__item experience-content__text">
+              <h2 class="experience-content__caption">40+</h2>
+              <p class="experience-content__description">проектов</p>
+            </div>
+          </div>
+        </div>
+      </section>   
+      <section id="nav-to-form" class="form">
+        <div class="form__container">
+          <h2 class="form__item form__caption page-caption-text">Хотите веб-сайт?</h2>
+          <p class="form__item form__description page-description-text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+            на латинице с начала XVI века.
+          </p>
+          <form class="page-form">
+            <div class="input-container">
+              <input class="form__item form__input form__input-name" type="text" placeholder="Ваше имя" required>
+              <input class="form__item form__input form__input-e-mail" type="email" placeholder="Ваш e-mail" required>
+            </div>
+              <textarea class="form__item form__input-message" rows="4" cols="50" placeholder="Сообщение"></textarea>
+              <button class="form__item form__button page-button bg-accent" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer bg-accent">
+      <div class="footer-wrapper">
+        <div class="footer-section">
+          <h2 class="footer-section__name">Иван Иванов</h2>
+          <p class="footer-section__copyright">(c) 2020. Все права защищены.</p>
+        </div>
+        <div class="footer-links">
+          <a class="footer__link footer__link-1" href="http://google.com">
+            <img src="img/vkontakte.svg" alt="link">
+          </a>
+          <a class="footer__link footer__link-2" href="http://google.com">
+            <img src="img/vkontakte.svg" alt="link">
+          </a>
+          <a class="footer__link footer__link-3" href="http://google.com">
+            <img src="img/vkontakte.svg" alt="link">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
